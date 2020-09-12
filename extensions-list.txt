@@ -1,0 +1,4 @@
+macros  -- ext install geddski.macros
+Org Mode -- ext install tootone.org-mode
+Space Block Jumper -- ext install jmfirth.vsc-space-block-jumper
+File Browser -- ext install bodil.file-browser
