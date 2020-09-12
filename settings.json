@@ -1,0 +1,88 @@
+{
+    "window.menuBarVisibility": "hidden",
+    "window.enableMenuBarMnemonics": false,
+    "breadcrumbs.enabled": true,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Zenburn (No Bold)",
+    "editor.minimap.enabled": false,
+    "window.customMenuBarAltFocus": false,
+    "macros": {
+        "cancellSelectionAnchor": [
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "copy": [
+            "editor.action.clipboardCopyAction",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "cut": [
+            "editor.action.clipboardCutAction",
+            // "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "paste": [
+            "editor.action.clipboardPasteAction",
+            // "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "editor.action.commentLine": [
+            "editor.action.commentLine",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "remove": [
+            "remove",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteAllLeft": [
+            "deleteAllLeft",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteAllRight": [
+            "deleteAllRight",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteWordLeft": [
+            "deleteWordLeft",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteWordRight": [
+            "deleteWordRight",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteLeft": [
+            "deleteLeft",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "deleteRight": [
+            "deleteRight",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "editor.action.deleteLines": [
+            "editor.action.deleteLines",
+            "cancelSelection",
+            "editor.action.cancelSelectionAnchor"
+        ],
+        "expandLineSelection": [
+            "editor.action.setSelectionAnchor",
+            "expandLineSelection"
+        ]
+    },
+    "files.exclude": {
+        "**/__pycache__/**": true
+    },
+    "files.watcherExclude": {
+        "**/__pycache__/**": true
+    },
+    "window.zoomLevel": 0,
+    "git.decorations.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
+}
